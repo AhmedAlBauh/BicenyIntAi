@@ -9,8 +9,8 @@ TELEGRAM_BOT_TOKEN = os.getenv("proj_VnLTI1SOTV3skpnk6OWP0Auw")
 OPENAI_API_KEY = os.getenv("7622330651:AAH1F9WDw7McTspCyuCHUW2oGOlEXLTdm3U")
 
 # تهيئة البوت
-bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
-openai_client = OpenAI(api_key=OPENAI_API_KEY)
+bot = telebot.TeleBot(7622330651:AAH1F9WDw7McTspCyuCHUW2oGOlEXLTdm3U)
+openai_client = OpenAI(api_key=proj_VnLTI1SOTV3skpnk6OWP0Auw)
 
 # 🚀 رسالة /start
 @bot.message_handler(commands=["start"])
